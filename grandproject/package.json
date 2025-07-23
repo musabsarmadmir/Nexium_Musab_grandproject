@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test-ai": "tsx ai/test-runner.ts",
+    "test-ai-quick": "tsx ai/test-runner.ts quick",
+    "test-ai-full": "tsx ai/test-runner.ts full"
   },
   "dependencies": {
     "next": "^14.0.0",
@@ -28,6 +31,7 @@
     "eslint": "^8.0.0",
     "eslint-config-next": "^14.0.0",
     "prisma": "^5.0.0",
-    "@prisma/client": "^5.0.0"
+    "@prisma/client": "^5.0.0",
+    "tsx": "^4.0.0"
   }
 }
